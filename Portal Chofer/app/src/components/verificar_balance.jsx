@@ -1,10 +1,20 @@
-import { useEffect } from "react";
+import React,{ useEffect,useState  } from "react";
 
 import { Link } from "react-router-dom";
 
+import {QrReader} from "react-qr-reader";
+
+
+
 export default function Verificar(){
 
-    useEffect(()=>{});
+    const [data, setData] = useState('No result');
+
+    useEffect(()=>{
+
+      
+    });
+
 
     return(<>
     
@@ -18,7 +28,19 @@ export default function Verificar(){
         <div className="nav"><Link to="/"><h1> Home /</h1></Link> <Link to="/verificar_balance"><h1> Verificar Balance /</h1></Link></div>
 
         <div className="section">
-           
+        {/* <QrReader
+        onResult={(result, error) => {
+          if (!!result) {
+            setData(result?.text);
+          }
+
+          if (!!error) {
+            console.info(error);
+          }
+        }}
+        style={{ width: '100%' }}
+      />
+      <p>{data}</p> */}
         </div>
 
 
