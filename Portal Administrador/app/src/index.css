@@ -20,6 +20,8 @@ div{
 
 a{text-decoration: none;}
 
+h1{text-align: center;}
+
 .main{
 
   width: 100%;
@@ -228,4 +230,587 @@ a{text-decoration: none;}
   top: -20px;
 
   margin-left: 5px;
+}
+
+
+
+.tools{
+
+  width: 75%;
+
+  height: 50px;
+
+  margin-top: 30px;
+
+  justify-content: end;
+
+}
+
+
+.SearchSection{
+
+  flex: 1;
+
+  align-items: center;
+
+}
+
+.SearchSection input{
+
+  width: 25%;
+
+  border: none;
+
+  box-shadow: 0 0 5px #c0c0c0;
+
+  padding: 10px;
+
+  font-size: 16px;
+
+  outline-color: #E74C3C;
+
+}
+
+
+.SearchSection span{
+
+  width: 40px;
+
+    font-size: 30px;
+
+    margin: 15px;
+
+    color: #212F3C;
+
+    cursor: pointer;
+}
+
+
+.SearchSection span:hover{
+
+  font-size: 30px;
+
+  margin: 15px;
+
+  color: #184b7b;
+
+  cursor: pointer;
+}
+
+
+.SearchSection span:hover .filterSection{display: flex;}
+
+
+.filterSection{
+
+  display: none;
+
+  flex-direction: column;
+
+  width: 200px;
+
+  height: 100px;
+
+  background: white;
+
+  position: absolute;
+
+  justify-content: center;
+
+  margin-left: 35px;
+
+  box-shadow: 0 0 5px black;
+
+  margin-top: -30px;
+}
+
+
+ .fliteritem{
+
+  width: 100%;
+
+  align-items: center;
+
+  height: 40px;
+
+  border: 1px solid #212F3C;
+  
+  background: white;
+
+}
+
+
+.fliteritem:hover{
+
+    background: #212F3C;
+
+    color: white;
+}
+
+.fliteritem h1{
+
+  width: 100%;
+
+  text-align: center;
+
+  font-size: 15px;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.newUser{
+
+  width: 20%;
+
+  height: 100%;
+
+  justify-content: center;
+
+  background: #1ABC9C;
+
+  color: white;
+
+  align-items: center;
+  
+}
+
+
+
+
+.newUser:hover{
+
+  background: #228d77;
+
+  color: white;
+
+  align-items: center;
+
+  cursor: pointer;
+}
+
+
+.newUser h1{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  font-size: 20px;
+
+}
+
+
+.newUser span{
+
+  font-size: 25px;
+
+  margin-right: 10px;
+
+}
+
+
+.tableusers{
+  width: 80%;
+
+  margin-top: 10px;
+
+  flex-direction: column;
+
+}
+
+
+.columns{
+
+  width: 100%;
+
+  height: 50px;
+
+  background: #2E4053;
+
+  color: white;
+
+ 
+}
+
+
+.columns h1{
+
+  width: 20%;
+
+  height: 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+  font-size: 20px;
+
+  box-shadow: 0 0 1px black;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  align-items: center;
+}
+
+
+.rows{
+
+  width: 100%;
+
+  height: 80px;
+
+  background: white;
+
+  margin: 5px 0px 0px 0px;
+
+
+  
+}
+
+
+.rows h1{
+
+  width: 20%;
+
+  height: 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+  box-shadow: 0 0 1px black;
+
+  font-size: 20px;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  align-items: center;
+}
+
+
+.edituser{
+
+  width: 65px;
+
+  height: 60px;
+
+  margin: 0px 10px;
+
+  font-size: 30px;
+
+  border-radius: 5px;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background: #3498DB;
+
+  color: white;
+
+}
+
+
+.edituser:hover{
+
+  background: #1e5275;
+
+  cursor: pointer;
+}
+
+
+.deleteuser{
+
+  width: 65px;
+
+  height: 60px;
+
+  margin: 0px 5px;
+
+  font-size: 30px;
+
+  border-radius: 5px;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background: red;
+
+  color: white;
+
+}
+
+
+.deleteuser:hover{
+
+  background: rgb(173, 19, 19);
+
+  cursor: pointer;
+}
+
+
+.CreateUserSection{
+
+  display: none;
+
+  width: 100%;
+
+  height: 1000px;
+
+  position: absolute;
+
+  background: black;
+
+  opacity: 0.5;
+}
+
+
+.createUsers{
+
+  display: none;
+
+  width: 30%;
+
+  height: 600px;
+
+  position: fixed;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  background: white;
+
+  margin-top: 100px;
+
+  left: 35%;
+}
+
+
+.createUsers h1{
+
+  font-family: sans-serif;
+
+  color: #184b7b;
+
+  margin-top: 30px;
+
+  font-size: 35px;
+}
+
+
+.createUsers label{
+
+  width: 80%;
+
+  margin: 30px 0px 5px 0px;
+
+  font-size: 20px;
+
+  color: #184b7b;
+
+  font-weight: 500;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.createUsers input{
+
+  width: 80%;
+  height: 45px;
+
+  font-size: 20px;
+
+  border: none;
+
+  color: #184b7b;
+
+  border: 2px solid #184b7b;
+
+  padding: 10px;
+
+  outline: none;
+}
+
+.createUsers input[type="number"]{
+
+  text-align: center;
+}
+
+
+.createUsers select{
+
+  width: 80%;
+  height: 50px;
+
+  font-size: 13px;
+
+  border: none;
+
+  background: #184b7b;
+
+  color: white;
+
+  border: 2px solid #184b7b;
+
+  padding: 5px;
+
+  outline: none;
+
+  text-align: center;
+
+  -webkit-appearance:none;
+}
+
+
+.icon-circle-down{
+
+  position: absolute;
+
+  margin-top: 350px;
+
+  margin-left: 340px;
+
+  font-size: 20px;
+
+  color: white;
+}
+
+
+.createUsers select option{
+
+  background: white;
+
+  color: #184b7b;
+
+}
+
+
+.actionscreateusers{
+
+  width: 90%;
+
+  height: 55px;
+
+  margin-top: 30px;
+
+  justify-content: center;
+}
+
+.AddUser{
+
+  width: 120px;
+
+  height: 100%;
+
+  background: #3498DB;
+
+  margin-right: 15px;
+
+  justify-content: center;
+
+  align-items: center;
+
+  
+}
+
+
+.AddUser span{
+
+  margin-right: 3px;
+
+  font-size: 20px;
+}
+
+.AddUser:hover{
+
+  background: #235d84;
+
+  cursor: pointer;
+}
+
+.AddUser h1{
+
+  font-size: 18px;
+
+  margin-top: 0px;
+
+  color: white;
+}
+
+
+
+
+.canceluser{
+
+  width: 120px;
+
+  height: 100%;
+
+  background: red;
+
+  justify-content: center;
+
+  align-items: center;
+
+  
+}
+
+
+.canceluser:hover{
+
+  background: rgb(143, 17, 17);
+
+  cursor: pointer;
+}
+
+
+.canceluser h1{
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-size: 20px;
+
+  margin-top: 0px;
+
+  color: white;
+}
+
+
+.Hori{
+
+  margin-top: 460px;
+
+  margin-left: 350px;
+
+  display: none;
+
+}
+
+
+.excel{
+
+  background: #27AE60;
+
+}
+
+.excel:hover{
+
+  background: #20643d;
+}
+
+
+.selectedRow:hover{
+
+  cursor: pointer;
+
+  background: #184b7b;
+
+  color: white;
+
 }
