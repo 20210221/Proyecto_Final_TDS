@@ -19,14 +19,14 @@ export default function Home(){
 
         <div className="section">
 
-        <Link to="/recargar_balance">
+        <Link to="/consultar_balance">
         <div className="item-section">
             <span className="icon-qrcode"></span>
             <h1>Consultar Balance</h1>
             </div>
         </Link>
 
-        <Link to="/consultar_balance">
+        <Link to="/recargar_balance">
         <div className="item-section">
             <span className="icon-credit-card"></span>
             <h1>Recargar Balance</h1>

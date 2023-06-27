@@ -229,3 +229,349 @@ a{text-decoration: none;}
 
   margin-left: 5px;
 }
+
+
+.userSection{
+
+  width: 80%;
+
+  background: white;
+
+  box-shadow: 0 0 5px #c0c0c0;
+
+  margin-top: 30px;
+
+}
+
+
+.Infouser{
+
+  width: 50%;
+
+  height: 550px;
+
+  background: #2E4053;
+
+  align-items: center;
+
+  flex-direction: column;
+}
+
+
+.Infouser h1{
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: white;
+
+  font-size: 35px;
+
+  margin-top: 30px;
+}
+
+
+.Infouser label{
+
+  width: 70%;
+
+  margin-top: 30px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 25px;
+
+  color: white;
+}
+
+
+.Infouser input{
+
+  width: 70%;
+
+  margin-top: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 30px;
+
+  color: #2E4053;
+
+  padding: 5px;
+
+  border: none;
+
+  outline: none;
+
+  border-radius: 5px;
+}
+
+
+.Infosaldo{
+
+  width: 50%;
+
+  height: 550px;
+
+  background: white;
+
+  align-items: center;
+
+  flex-direction: column;
+}
+
+
+.Infosaldo h1{
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #2E4053;
+
+  font-size: 35px;
+
+  margin-top: 30px;
+}
+
+
+.Infosaldo label{
+
+  width: 70%;
+
+  margin-top: 30px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 25px;
+
+  color: #2E4053;
+}
+
+
+.Infosaldo input{
+
+  width: 70%;
+
+  margin-top: 10px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 30px;
+
+  color: #2E4053;
+
+  padding: 5px;
+
+  border: none;
+
+  outline: none;
+
+  box-shadow: 0 0 3px black;
+
+  border-radius: 5px;
+}
+
+
+.tranfer{
+
+  width: 40%;
+
+  height: 50px;
+
+  background: #2E4053;
+
+  color: white;
+
+  margin-top: 10px;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+
+.tranfer h1{
+
+  font-size: 15px;
+
+  color: white;
+
+  margin-top: 0px;
+}
+
+.tranfer:hover{
+
+  background: #4a6786;
+
+  cursor: pointer;
+}
+
+
+.codesection{
+
+  width: 50%;
+
+  height: 250px;
+
+  margin-top: 15px;
+
+  margin-left: 50px;
+}
+
+
+.transfesection{
+
+  display: none;
+
+  width: 100%;
+
+  height: 1000px;
+
+  position: absolute;
+
+  background: black;
+
+  opacity: 0.5;
+}
+
+
+.transfesaldo{
+
+  display: none;
+
+  width: 30%;
+
+  height: 400px;
+
+  position: fixed;
+
+  align-items: center;
+
+  background: white;
+
+  left: 35%;
+
+  flex-direction: column;
+
+  margin-top: 200px;
+}
+
+.transfesaldo h1{
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #2E4053;
+
+  margin-top: 30px;
+}
+
+.transfesaldo label{
+
+  width: 80%;
+
+  color: #2E4053;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 20px;
+
+  margin-top: 30px;
+}
+
+.transfesaldo input{
+
+  width: 80%;
+
+  color: #2E4053;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 20px;
+
+  margin-top: 10px;
+
+  padding: 10px;
+
+  outline: #2E4053;
+
+  text-align: center;
+}
+
+
+.actionstransfesaldo{
+
+  width: 80%;
+
+  height: 50px;
+
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+
+.confirmtranfe{
+
+  width: 130px;
+
+  height: 100%;
+
+  margin-left: 10px;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: #2980B9;
+
+  color: white;
+}
+
+.confirmtranfe:hover{
+
+  background: #295674;
+
+  cursor: pointer;
+}
+
+.confirmtranfe h1{
+
+  font-size: 15px;
+
+  color: white;
+
+  margin-top: 0px;
+}
+
+.canceltranfe{
+
+  width: 130px;
+
+  height: 100%;
+
+  margin-left: 10px;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: red;
+
+  color: white;
+}
+
+.canceltranfe:hover{
+
+  background: rgb(123, 30, 30);
+
+  cursor: pointer;
+}
+
+
+.canceltranfe h1{
+
+  font-size: 15px;
+
+  color: white;
+
+  margin-top: 0px;
+  
+}
